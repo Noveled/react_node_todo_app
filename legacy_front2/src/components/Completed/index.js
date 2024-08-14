@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from '../Navbar'
 
 const index = () => {
   return (
-    <div>Completed</div>
+    <div>
+      <Navbar menuIdx={1} />
+    </div>
+  
   )
 }
 

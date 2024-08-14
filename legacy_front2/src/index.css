@@ -2,30 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
-*{margin:0; padding:0; box-sizing: border-box;}
-
-:root{
-  color-scheme: dark;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-  font-family: 'IBM Plex Mono', monospace;
+:root {
+    color-scheme: dark;
+}
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 /* Common Page Section Style */
-.page_section{width:100%; height:100vh; padding:0.5rem; display:flex; gap:0.5rem;}
+.pageSection {
+    width: 100%;
+    height: 100vh;
+    padding: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+}
 
 /* Panel Style */
-.panel{width:80%; height:100%;}
+.panel {
+    width: 80%;
+    height: 100%;
+    background: #ccc;
+}
 
-/* Custom Logo Style */
+
 .logo {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background: linear-gradient(to bottom left, #007fe8 15%, #00cdfc);
   position: relative;
 }
+
 
 .logo::before {
   content: "";
@@ -42,3 +57,5 @@ body{
   border-radius: 5px;
   border: 2px solid #ebf5fc;
 }
+
+
