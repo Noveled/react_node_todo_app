@@ -5,8 +5,9 @@ import { openModal } from '../redux/slices/modalSlice';
 
 const AddItem = () => {
   const dispatch = useDispatch();
+  
   const handleOpenModal = () => {
-    dispatch(openModal());
+    dispatch(openModal({ modalType: 'create' }));
   }
 
   return (
