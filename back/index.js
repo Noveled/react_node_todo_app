@@ -16,7 +16,7 @@ app.use(cors()); // http, https 프로토콜을 사용하는 서버 간의 통�
 app.use(express.json()); // express 모듈의 json() 메소드 사용
 
 app.get('/', (req, res) => {
-  res.send('hello World');
+  res.send('hello World test https');
 });
 
 // app.get('/get_tasks', async (req, res) => {
